@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  gemini-pdf-service:
+    build: .
+    container_name: gemini-pdf-service
+    ports:
+      - "3000:3000"      # host:container
+

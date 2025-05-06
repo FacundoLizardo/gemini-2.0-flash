@@ -1,12 +1,14 @@
 {
-  "name": "gemini-2.0-flash",
+  "name": "gemini-pdf-service",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@google/genai": "^0.2.0",
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.2"
+  }
 }
