@@ -13,6 +13,7 @@
     
     # ---- Copiar código fuente ----
     COPY index.js ./
+    COPY extractPdfs.js ./
     
     # ---- Exponer puerto ----
     EXPOSE ${PORT}
