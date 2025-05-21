@@ -9,7 +9,7 @@ const upload = multer();               // buffers en memoria
 app.use(express.json());
 
 /* ---- Config común a ambos endpoints ---- */
-const MODEL      = 'gemini-2.0-flash';
+const MODEL      = 'gemini-2.5-flash-preview-04-17';
 const MAX_TOKENS = 8192;
 
 /* ------------ Auxiliar: PDF → Gemini -------------- */
